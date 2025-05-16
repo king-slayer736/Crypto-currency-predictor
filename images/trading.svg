@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Candlestick chart -->
+  <g>
+    <!-- Candle 1 - Bullish -->
+    <line x1="100" y1="200" x2="100" y2="400" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="80" y="250" width="40" height="100" fill="#2ecc71"/> <!-- Body -->
+    
+    <!-- Candle 2 - Bearish -->
+    <line x1="180" y1="150" x2="180" y2="350" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="160" y="200" width="40" height="100" fill="#e74c3c"/> <!-- Body -->
+    
+    <!-- Candle 3 - Bullish -->
+    <line x1="260" y1="180" x2="260" y2="380" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="240" y="280" width="40" height="70" fill="#2ecc71"/> <!-- Body -->
+    
+    <!-- Candle 4 - Bearish -->
+    <line x1="340" y1="150" x2="340" y2="320" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="320" y="170" width="40" height="120" fill="#e74c3c"/> <!-- Body -->
+    
+    <!-- Candle 5 - Bullish -->
+    <line x1="420" y1="180" x2="420" y2="350" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="400" y="240" width="40" height="90" fill="#2ecc71"/> <!-- Body -->
+    
+    <!-- Candle 6 - Bullish -->
+    <line x1="500" y1="150" x2="500" y2="300" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="480" y="200" width="40" height="70" fill="#2ecc71"/> <!-- Body -->
+    
+    <!-- Candle 7 - Bearish -->
+    <line x1="580" y1="120" x2="580" y2="280" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="560" y="140" width="40" height="100" fill="#e74c3c"/> <!-- Body -->
+    
+    <!-- Candle 8 - Bullish -->
+    <line x1="660" y1="100" x2="660" y2="250" stroke="#333" stroke-width="2"/> <!-- Wick -->
+    <rect x="640" y="160" width="40" height="60" fill="#2ecc71"/> <!-- Body -->
+  </g>
+  
+  <!-- X-axis -->
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#333" stroke-width="2"/>
+  
+  <!-- Y-axis -->
+  <line x1="50" y1="100" x2="50" y2="450" stroke="#333" stroke-width="2"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#ccc" stroke-width="1">
+    <line x1="50" y1="400" x2="750" y2="400"/>
+    <line x1="50" y1="350" x2="750" y2="350"/>
+    <line x1="50" y1="300" x2="750" y2="300"/>
+    <line x1="50" y1="250" x2="750" y2="250"/>
+    <line x1="50" y1="200" x2="750" y2="200"/>
+    <line x1="50" y1="150" x2="750" y2="150"/>
+  </g>
+  
+  <!-- Moving Average line -->
+  <polyline points="100,300 180,280 260,260 340,240 420,220 500,200 580,180 660,160" 
+            stroke="#3498db" stroke-width="3" fill="none"/>
+</svg>
